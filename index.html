@@ -63,7 +63,7 @@
     <b>İyi ki yıllar önce doğmuşsun, iyi ki bu dünyaya gelmişsin.</b> Biliyorum, hâlâ tam olarak doğum gününü kutlamadım. Seni çok seviyorum, güzel karım. <b>İyi ki doğdun!</b> Birlikte nice doğum günlerine…
   </div>
 
-  <!-- Fotoğraf galerisi (41 resim) -->
+  <!-- Fotoğraf galerisi (45 resim) JPEG -->
   <section class="gallery" id="autoGallery"></section>
 
   <footer>2025 • Kalbimizin şifresi: Sonsuzluk</footer>
@@ -76,7 +76,7 @@
 
   <!-- Kendi mp3’ün varsa -->
   <audio id="bgMusic" loop>
-    <source src="muzik.mp3" type="audio/mpeg">
+    <source src="mp3indirdur-Rafat-Hasanli-Kisa-Mesafe.mp3" type="audio/mpeg">
   </audio>
   <button class="audio-btn" id="sesBtn">♪ Sesi Aç</button>
 
@@ -92,11 +92,11 @@
   </div>
 
   <script>
-    // 1) 41 fotoğraf oluştur
-    const totalFoto = 41;
+    // 1) 45 fotoğraf oluştur (JPEG uzantısı)
+    const totalFoto = 45;
     const box = document.getElementById('autoGallery');
     for (let i = 1; i <= totalFoto; i++) {
-      box.insertAdjacentHTML('beforeend', `<img src="foto${i}.jpg" alt="Anı ${i}">`);
+      box.insertAdjacentHTML('beforeend', `<img src="foto${i}.jpeg" alt="Anı ${i}">`);
     }
 
     // 2) Slayt değişkenleri
